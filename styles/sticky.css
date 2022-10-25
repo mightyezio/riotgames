@@ -133,3 +133,17 @@ nav ul li a{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+}
+.credits{
+  height: 300px;
+  background-color: #111111;
+  width: 10000px;
+  display: inline-block;
+  z-index: 1000000000;
+  overflow-y: hidden;
+  margin-top: 0px;
+  margin-bottom: -10px;
+  position: absolute;
+
+}
