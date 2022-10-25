@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <meta charset = "utf-8" />
+      
+    <title>
+        Home | Riot Games
+    </title>
+      
+    <link rel = "icon" href = 
+"resources for homepage/RIOT_Fist_Container_Red_100px.png" 
+    type = "image/x-icon">
+      
+    <link rel="stylesheet" href="styles/sticky.css">
+</head>
+
+<body>
+    
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="logo"><a href="homepage.html"><button class="btn btn2"><img class="riotgameslogohomepage" src="resources for homepage/riot games logo.png"></button></a></div>
+                <div class="menu">
+                    <ul>
+                        <a href="valorant.html"><button class="btn btn1">VALORANT</button></a>
+                        <button class="btn btn1">SHOP</button>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="whatshappening">
+            <img src="resources for homepage/what's happening-01.png" width="auto"></img>
+        </div>
+    </div>
+
+
+    <script src="styles/transition for sticky header.js"></script>
+
+    <script>
+
+        $(window).scroll(function(){
+            if ($(window).scrollTop()){
+                $("nav").addClass("black");
+            }
+            else{
+                $("nav").removeClass("black");
+            }
+        });
+        
+    </script>
+
+    <script defer src="styles/scroll.js"></script>
+
+
+</body>
+
+</html>

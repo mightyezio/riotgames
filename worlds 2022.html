@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <meta charset = "utf-8" />
+      
+    <title>
+        Worlds 2022
+    </title>
+      
+    <link rel = "icon" href = 
+"resources for worlds/worlds.png" 
+    type = "image/x-icon">
+      
+    <link rel="stylesheet" href="styles/worlds parallax.css">
+</head>
+
+<body>
+    
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="logo"><a href="homepage.html"><button class="btn btn2"><img class="riotgameslogohomepage" src="resources for homepage/riot games logo.png"></button></a></div>
+                <div class="menu">
+                    <ul>
+                        <a href="worlds 2022.html"><button class="btn btn1">WORLDS 2022</button></a>
+                        <button class="btn btn1">OUR GAMES</button>
+                        <button class="btn btn1">SHOP</button>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="blossoming">
+            <img src="resources for worlds/register now.png" id="register"></img>
+        </section>
+
+        <section class="rules">
+            <table>
+                <tr>
+                  <th style="width:1200px"></th>
+                  <th style="width:400px"></th>
+                </tr>
+                <tr>
+                  <td><img src="resources for worlds/INV-Worlds-Trophy.jpg"></td>
+                  <td class="textrules">Tournament Guidelines 
+                    <ol>
+                        <li>The participant must have a high elo rank in order to join the tournament.</li>
+                        <li>Players must be 18 years old and above.</li>
+                        <li>Each team will only have 6 players each, including the substitute/s.</li>
+                        <li>The production team will provide particular devices/controllers for the usage of each player, other devices/controllers are not allowed.</li>
+                        <li>Show respect to your teammates, opponents, and event staff.</li>
+                        <li>Hate speech, offensive behavior, and any type of violence are prohibited. Two warnings will be given. The third warning will be a sign of disqualification for the entire team.</li>
+                        <li>Each player has the right to notify the tournament referee to pause the game when there is a defect noticed at any kind.</li>
+                        <li>Matchmaking will be done fairly. Complains will be addressed accordingly.</li>
+                        <li>Game cheats are strictly prohibited. Once known that a player uses such, they will not be able to continue playing throughout the tournament.</li>
+                        <li>Enjoy. Play fair.</li>
+                    </ul>
+                    
+                    </td>
+                </tr>
+              </table>
+        </section>
+    </div>
+
+
+    <script src="styles/transition for sticky header.js"></script>
+
+    <script>
+
+        $(window).scroll(function(){
+            if ($(window).scrollTop()){
+                $("nav").addClass("black");
+            }
+            else{
+                $("nav").removeClass("black");
+            }
+        });
+        
+    </script>
+
+
+</body>
+
+</html>

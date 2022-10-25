@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+    <meta charset = "utf-8" />
+      
+    <title>
+        Riot Games | Shop
+    </title>
+      
+    <link rel = "icon" href = "resources for homepage/RIOT_Fist_Container_Red_100px.png" 
+    type = "image/x-icon">
+      
+    <link rel="stylesheet" href="styles/shop.css">
+
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="logo"><a href="homepage.html"><button class="btn btn2"><img class="riotgameslogohomepage" src="resources for homepage/riot games logo.png"></button></a></div>
+                <div class="menu">
+                    <ul>
+                        <a href="valorant.html"><button class="btn btn1">OUR GAMES</button></a>
+                        <a href="shop.html"><button class="btn btn1">SHOP</button></a>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div>
+        <img id="pressure" src="resources for shop/header.webp">
+        <p id="lie">LET</p>
+        <p id="lie">YOUR</p>
+        <p id="lie">SPIRIT</p>
+        <p id="lie">WANDER</p>
+        <div class="titlebox"></div>
+        <div class="weirdbox"></div>
+        <button id="love">Shop Now</button>
+    </div>
+
+    <section id="file">
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <img src="resources for shop/ITEM IMAGE DATABASE/Accessories/High Noon Thresh Ring.png"></img>
+                <h3>High Noon Thresh Ring</h3>
+                <p>Sterling Silver</p>
+                <a href="1.html">P1,150.00</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <img src="resources for shop/ITEM IMAGE DATABASE/Collectibles/APEX PROJECT  Ashe Action Figure.png"></img>
+                <h3>Ashe Action Figure</h3>
+                <p>PROJECT ASHE</p>
+                <a href="2.html">P1,460.00</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <img src="resources for shop/ITEM IMAGE DATABASE/Hats and Beanies/Tibbers-Plush-Hat.png"></img>
+                <h3>TIBBERSSSS</h3>
+                <p>Best Boy Ever</p>
+                <a href="3.html">P320.00</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <img src="resources for shop/ITEM IMAGE DATABASE/Accessories/Arcane X RockLove Arcane Armillary Pendant.png"></img>
+                <h3>Arcane Pendant</h3>
+                <p>Wintess the three mystical spinning rings</p>
+                <a href="4.html">P1000.00</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <img src="resources for shop/ITEM IMAGE DATABASE/Apparel/Spirit Blossom Teemo Longsleeve Tee.png"></img>
+                <h3>Teemosleeves</h3>
+                <p>Spirit Blossom</p>
+                <a href="5.html">P460.00</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <img src="resources for shop/ITEM IMAGE DATABASE/Collectibles/Star Guardian Jinx Scale Figure.png"></img>
+                <h3>Jinxed!</h3>
+                <p>Colorful Mayhem</p>
+                <a href="6.html">P3800.00</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <div class="credits">
+        <img id="logoooo" src="resources for homepage/riot games logo.png">
+        <p id="copyright">© 2022 Riot Games, Inc. Riot Games, VALORANT, and any associated logos are trademarks, service marks, and/or registered trademarks of Riot Games, Inc.</p>
+    </div>
+
+    <script src="styles/transition for sticky header.js"></script>
+
+    <script>
+
+        $(window).scroll(function(){
+            if ($(window).scrollTop()){
+                $("nav").addClass("black");
+            }
+            else{
+                $("nav").removeClass("black");
+            }
+        });
+        
+    </script>
+    
+    <script type="text/javascript" src="styles/vanilla-tilt.js"></script>
+    <script></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+
+    </body>
